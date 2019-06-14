@@ -351,9 +351,15 @@ def generate_mem_access(opcode, types, args, isGlobal):
         elif type == 'const':
             task = ["CONST_MEM_ACCESS"]
         if opcode == 'ld' or opcode == 'ldu':
-            task.append('LOAD')
+            if task is not None:
+                task.append("LOAD")
+            else:
+                task = ["LOAD"]
         elif opcode == "st":
-            task.append("STORE")
+            if task is not None:
+                task.append("STORE")
+            else:
+                task = ["STORE"]
         else:
             task.append(opcode)
     for i in range(1,len(args)): # Check for dependency
