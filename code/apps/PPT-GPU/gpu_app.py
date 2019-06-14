@@ -56,7 +56,7 @@ def app(this, arg, *args): # SW4lite rhs4sg_rev_1 kernel
 
 def GPU_APP_Handler(self, msg, *args):
 	self.createProcess("app", app)
-	gpu_config = get_gpu_config(getattr(sys.modules[__name__], "V100")) # V100 is one of the classes in [configs/GPU_config]
+	gpu_config = get_gpu_config(getattr(sys.modules[__name__], "V100_SXM2_16GB")) # V100 is one of the classes in [configs/GPU_config]
 	self.generate_target_accelerator(gpu_config)
 	self.startProcess("app", self) 
 

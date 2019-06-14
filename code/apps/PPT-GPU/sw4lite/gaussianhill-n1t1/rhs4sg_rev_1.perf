@@ -5,14 +5,14 @@ MPI: OFF
 
 Node[0]: Running on rank 0
 GPU node generated at time 0.0
-1 V100 accelerator from Volta architecture generated at time 0
+1 V100_SXM2_16GB accelerator from Volta architecture generated at time 0
 Allocated 1 simultaneous blocks per SM for a total of 8 warps.
-BLOCK AVERAGE = 2.8475068856e-14
+BLOCK AVERAGE = 2.56822575848e-14
 GPU computations for a single workload took 44208.0 cycles.
-GPU computations for a single workload took 3.54799357945e-05 s.
+GPU computations for a single workload took 3.36951219512e-05 s.
 Total number of workloads 121600.
 Total number of instructions issued for a single workload: 6147.0.
 Potential workload overlap: 0.0%.
 Overall IPC 0.13904723127.
-Overall MIPS: 1732.52850163.
+Overall MIPS: 1824.29967427.
 Maximum number of concurrent transfers: 45
