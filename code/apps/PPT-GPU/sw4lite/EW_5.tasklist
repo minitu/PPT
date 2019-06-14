@@ -1,0 +1,1 @@
+[['PARAM_MEM_ACCESS', 'LOAD'], ['PARAM_MEM_ACCESS', 'LOAD'], ['PARAM_MEM_ACCESS', 'LOAD'], ['iALU', 4], ['iALU', 4], ['iALU', 4], ['iALU', 4], ['iALU', 4], ['iALU', 4], ['iALU', 4], ['dALU', 8, 1], ['iALU', 4], ['dALU', 4], ['dALU', 8, 12], ['GLOB_MEM_ACCESS', 'LOAD', 13]]

@@ -1,0 +1,11 @@
+
+=====================================================================================================================
+	Error: There are 2 loops in the code but number of iterations for only 1 is provided in the arguments
+=====================================================================================================================
+
+[USAGE] python PTXParser.py <PTX File> <Target Kernel Name> <Loop Iteration Counts> <Target GPU Generation>
+	[ARG] PTX File: path to the ptx file
+	[ARG] Target Kernel Name: name of the kernel function
+	[ARG] Loop Iteration Counts: comma separated iteration counts for the loops in the kernel (in order in which they are executed)
+	[ARG] Target GPU Generation: GPU generation (i.e. Kepler, Maxwel) from configs/arch_latencies_config
+
